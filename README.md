@@ -1,32 +1,28 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a simple web-based To-Do List application built using using HTML, CSS, and JavaScript. Users can keep track of tasks by adding them to their list, checking tasks as complete, and deleting them from their list when finished. 
 
-{Provide a description of the software that you wrote to demonstrate the JavaScript language.}
+My goal for this To-Do List application was to solidify my knowledge of JavaScript by focusing on manipulating the Document Object Model (DOM) and handling user input effectively and having a clean UI with HTML/CSS.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
+4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+- **Text Editor**: Visual Studio Code for writing and editing code.
+- **Browser**: Google Chrome for testing the application and using developer tools for debugging.
+- **Programming Language**: Vanilla JavaScript to use event handling, DOM manipulation, and basic user interface design.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Comprehensive documentation on JavaScript and its features.
+- [W3Schools - JavaScript Tutorial](https://www.w3schools.com/js/) - A great resource for learning JavaScript fundamentals and examples.
+- [CSS-Tricks - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - An excellent guide for using Flexbox in CSS layouts.
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+- **Edit Tasks**: Add functionality to edit existing tasks instead of just deleting them.
+- **Task Organization**: Introduce a way for users to set priorities or change order of tasks.
+- **Responsive Design**: Improve the design to ensure it works well on mobile devices.
 
-- Item 1
-- Item 2
-- Item 3
