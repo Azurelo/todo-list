@@ -4,9 +4,7 @@ This is a simple web-based To-Do List application built using using HTML, CSS, a
 
 My goal for this To-Do List application was to solidify my knowledge of JavaScript by focusing on manipulating the Document Object Model (DOM) and handling user input effectively and having a clean UI with HTML/CSS.
 
-4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/cyRCDSRWXYk)
 
 # Development Environment
 

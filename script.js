@@ -9,6 +9,28 @@ let tasks = [];
 // Event listener for adding a task
 addTaskBtn.addEventListener("click", addTask);
 
+// Function to add a task
+function addTask() {
+    const taskText = taskInput.value.trim();
+
+    try {
+        // Validate input
+        if (taskText === "") {
+            throw new Error("Task cannot be empty!");
+        }
+
+        // Add task to the array
+        tasks.push({ text: taskText, completed: false });
+        renderTasks(); // Re-render tasks
+
+        // Clear input
+        taskInput.value = "";
+
+    } catch (error) {
+        alert(error.message); // Handle the error by showing an alert
+    }
+}
+
 // Function to render the tasks
 function renderTasks() {
     taskList.innerHTML = ''; 
@@ -43,24 +65,3 @@ function renderTasks() {
     });
 }
 
-// Function to add a task
-function addTask() {
-    const taskText = taskInput.value.trim();
-
-    try {
-        // Validate input
-        if (taskText === "") {
-            throw new Error("Task cannot be empty!");
-        }
-
-        // Add task to the array
-        tasks.push({ text: taskText, completed: false });
-        renderTasks(); // Re-render tasks
-
-        // Clear input
-        taskInput.value = "";
-
-    } catch (error) {
-        alert(error.message); // Handle the error by showing an alert
-    }
-}
